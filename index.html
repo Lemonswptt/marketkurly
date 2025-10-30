@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>마켓컬리 클론</title>
+      <script src="script/jquery-1.12.3.js"></script>
+      <script src="script/script.js"></script>
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+
+      <header>
+        <!-- 1행 -->
+        <div class="header-top">
+          <span>회원가입</span>
+          <span>로그인</span>
+          <span>고객센터</span>
+        </div>
+
+        <!-- 2행 -->
+        <div class="header-middle">
+            <div class="header-left">
+                <div class="logo">
+                    <img src="https://res.kurly.com/images/marketkurly/logo/logo_x2.png" alt="마켓컬리 로고">
+                </div>
+                <div class="menu">
+                    <span class="active">마켓컬리</span>
+                    <span>뷰티컬리</span>
+                </div>
+            </div>
+          
+
+          
+
+          <div class="search">
+            <input type="text" placeholder="검색어를 입력해주세요">
+            🔍
+          </div>
+
+          <div class="icons">
+            📍
+            ❤️
+            🛒
+          </div>
+        </div>
+
+        <!-- 3행 -->
+        <div class="header-bottom">
+          <div class="category">
+            <span class="hamburger">☰</span>
+            <span>카테고리</span>
+          </div>
+
+          <div class="nav-links">
+            <span>신상품</span>
+            <span>베스트</span>
+            <span>알뜰쇼핑</span>
+            <span>특가/혜택</span>
+          </div>
+
+          <div class="delivery-info">
+            <button>샛별·하루<p> 배송안내</p></button>
+          </div>
+        </div>
+      </header>
+      <div id="slider">
+        <ul class="slider-wrap">
+          <li class="slider"><a href="#"><img src="https://product-image.kurly.com/hdims/resize/%3E1900x%3E370/quality/85/src/banner/main/pc/img/e41430a5-c6a9-40af-89ba-486cdca0b05a.jpg" alt=""></a></li>
+          <li class="slider"><a href="#"><img src="https://product-image.kurly.com/hdims/resize/%3E1900x%3E370/quality/85/src/banner/main/pc/img/eadb2a27-e7a5-422d-a417-50cbaf361c71.jpg" alt=""></a></li>
+          <li class="slider"><a href="#"><img src="https://product-image.kurly.com/hdims/resize/%3E1900x%3E370/quality/85/src/banner/main/pc/img/731e645c-09d4-4344-be81-c9cb631bf315.jpg" alt=""></a></li>
+        </ul>
+      </div>
+      <section class="best-seller">
+        <h2>🔥 원더컬리 베스트셀러 초특가</h2>
+
+        <div class="product-grid">
+        
+          <!-- 상품 카드 1 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/1e143634-65e2-40e9-bbc8-8580f1b0e084.jpg" alt="상품 이미지">
+            <div class="product-info">
+              <h3>[사리원] 소불고기 전골</h3>
+              <p class="price">
+                <span class="original">₩15,900</span>
+                <span class="discount">25%</span>
+                <span class="final">11,925~</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 2 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/608cceae-c9b8-4a82-9beb-71998a42bf0c.jpg" alt="상품 이미지">
+            <div class="product-info">
+              <h3>[베키아에누보] 바질토마토치즈 치아바타 샌드위치 (3입)</h3>
+              <p class="price">
+                <span class="original">₩13,980</span>
+                <span class="discount">14%</span>
+                <span class="final">₩11,980~</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 3 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/3df368c8-e124-4d06-a9e9-af4c10d01b53.jpeg?v=0531" alt="상품 이미지">
+            <div class="product-info">
+              <h3>[압구정주꾸미] 주꾸미 볶음 2종 (택1)</h3>
+              <p class="price">
+                <span class="original">₩8,900</span>
+                <span class="discount">21%</span>
+                <span class="final">₩6,950~</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 4 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/f864b361-85da-4482-aec8-909397caac4e.jpg" alt="상품 이미지">
+            <div class="product-info">
+              <h3>[KF365] 한돈 목살 구이용 600g~ (냉장)</h3>
+              <p class="price">
+                <span class="original">₩19,980</span>
+                <span class="discount">28%</span>
+                <span class="final">₩14,280~</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+      <section class="real-time-ranking">
+        <h2>🏆 실시간 인기 랭킹 🏆</h2>
+
+        <div class="product-grid ranking-grid">
+          <!-- 상품 카드 1 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/a68f6340-0b47-4929-9266-314dca796093.jpg?v=0531" alt="상품 이미지">
+            <div class="product-info">
+              <h3>청송 사과 1.5kg</h3>
+              <p class="price">
+                <span class="original">₩10,000</span>
+                <span class="discount">10%</span>
+                <span class="final">₩9,000</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 2 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/dd1c0a05-ca1a-4c21-a712-54338f3dbbf2.jpg" alt="상품 이미지">
+            <div class="product-info">
+              <h3>한우 등심 400g</h3>
+              <p class="price">
+                <span class="original">₩28,000</span>
+                <span class="discount">15%</span>
+                <span class="final">₩23,800</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 3 -->
+          <div class="product-card">
+            <img src="https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/1653035519444l0.jpeg?v=0418" alt="상품 이미지">
+            <div class="product-info">
+              <h3>고소한 아몬드 1kg</h3>
+              <p class="price">
+                <span class="original">₩14,000</span>
+                <span class="discount">20%</span>
+                <span class="final">₩11,200</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 4 -->
+          <div class="product-card">
+            <img src="https://product-image.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/product/image/8f07cafa-4640-47bf-a859-55711ea29713.jpeg" alt="상품 이미지">
+            <div class="product-info">
+              <h3>냉동 새우 500g</h3>
+              <p class="price">
+                <span class="original">₩17,000</span>
+                <span class="discount">25%</span>
+                <span class="final">₩12,750</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        
+          <!-- 상품 카드 5 -->
+          <div class="product-card">
+            <img src="https://img-cf.kurly.com/hdims/resize/%5E%3E360x%3E468/cropcenter/360x468/quality/85/src/shop/data/goods/157914210270l0.jpg?v=0418" alt="상품 이미지">
+            <div class="product-info">
+              <h3>수제 그릭요거트</h3>
+              <p class="price">
+                <span class="original">₩9,500</span>
+                <span class="discount">30%</span>
+                <span class="final">₩6,650</span>
+              </p>
+              <button class="cart-btn">🛒 담기</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+</html>
